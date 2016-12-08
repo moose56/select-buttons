@@ -14,5 +14,5 @@ I really like their implementation so created this repo to play around with it.
 
 The [GOV.UK elements](http://govuk-elements.herokuapp.com/) guide is available under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). All source taken from that site is marked with this license.
 
-The rest of the source code in this repository is available under the MIT license - see license.txt.
+The rest of the source code in this repository is available under the MIT license - see license.md.
 
