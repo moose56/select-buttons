@@ -1,3 +1,9 @@
+/**
+ * This code is adapted from http://govuk-elements.herokuapp.com/ which is made
+ * available under the open government licence version 3
+ * https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+ */
+
 .js .block-label {
     display: block;
     float: none;
@@ -10,9 +16,7 @@
 }
 
 
-
-.js .block-label.sb input,
-.js .block-label.sb input {
+.js .sb input {
     margin: 0;
     zoom: 1;
     filter: alpha(opacity=0);
@@ -36,7 +40,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 .js .sb-checkbox::after {
@@ -67,7 +70,6 @@
     top: 0;
     left: 0;
     border-radius: 50%;
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 .js .sb-radio::after {

@@ -1,3 +1,8 @@
+/**
+ * This code is taken from http://govuk-elements.herokuapp.com/ which is made
+ * available under the open government licence version 3
+ * https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+ */
 ;(function (global) {
     'use strict'
 
