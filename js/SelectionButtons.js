@@ -2,13 +2,12 @@
     'use strict'
 
     var $ = global.jQuery
-    var GOVUK = global.GOVUK || {}
 
     var SelectionButtons = function (elmsOrSelector, opts) {
-        this.selectedClass = 'selected'
-        this.focusedClass = 'focused'
-        this.radioClass = 'selection-button-radio'
-        this.checkboxClass = 'selection-button-checkbox'
+        this.selectedClass = 'sb-selected'
+        this.focusedClass = 'sb-focused'
+        this.radioClass = 'sb-radio'
+        this.checkboxClass = 'sb-checkbox'
         if (opts !== undefined) {
             $.each(opts, function (optionName, optionObj) {
                 this[optionName] = optionObj
@@ -107,6 +106,5 @@
         }
     }
 
-    GOVUK.SelectionButtons = SelectionButtons
-    global.GOVUK = GOVUK
+    global.SelectionButtons = SelectionButtons
 })(window)

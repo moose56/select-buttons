@@ -11,8 +11,8 @@
 
 
 
-.js .block-label.ui-checkbox input,
-.js .block-label.ui-radio input {
+.js .block-label.sb input,
+.js .block-label.sb input {
     margin: 0;
     zoom: 1;
     filter: alpha(opacity=0);
@@ -27,8 +27,7 @@
 
 
 
-
-.js .ui-checkbox::before {
+.js .sb-checkbox::before {
     content: "";
     border: 2px solid;
     background: transparent;
@@ -40,7 +39,7 @@
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.js .ui-checkbox::after {
+.js .sb-checkbox::after {
     content: "";
     border: solid;
     border-width: 0 0 5px 5px;
@@ -56,20 +55,9 @@
     opacity: 0;
 }
 
-.js .ui-checkbox-selected::after {
-    zoom: 1;
-    filter: alpha(opacity=100);
-    opacity: 1;
-}
-
-.js .ui-checkbox-focused::before {
-    box-shadow: 0 0 0 5px #ffbf47;
-}
 
 
-
-
-.js .ui-radio::before {
+.js .sb-radio::before {
     content: "";
     border: 2px solid;
     background: transparent;
@@ -79,9 +67,10 @@
     top: 0;
     left: 0;
     border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-.js .ui-radio::after {
+.js .sb-radio::after {
     content: "";
     border: 10px solid;
     width: 0;
@@ -95,12 +84,14 @@
     opacity: 0;
 }
 
-.js .ui-radio-selected::after {
+
+
+.js .sb-selected::after {
     zoom: 1;
     filter: alpha(opacity=100);
     opacity: 1;
 }
 
-.js .ui-radio-focused::before {
+.js .sb-focused::before {
     box-shadow: 0 0 0 5px #ffbf47;
 }
