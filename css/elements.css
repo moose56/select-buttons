@@ -1,0 +1,12 @@
+body {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 9px 10px 0 10px;
+    margin: 0 0 20px;
+}
+
+legend {
+    display: none;
+}

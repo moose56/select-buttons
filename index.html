@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="css/inputs.css">
+
+  <title>GOV.UK elements</title>
+</head>
+<body class="js">
+  <h3>What do you like?</h3>
+
+  <form>
+
+    <fieldset>
+      <legend>Which fruits do you like?</legend>
+      <label class="block-label ui-checkbox ui-checkbox-selected ui-checkbox-focused" for="fruit-1">
+        <input id="fruit-1" name="fruit-1" type="checkbox" value="apple">
+        Apples
+      </label>
+      <label class="block-label ui-checkbox" for="fruit-2">
+        <input id="fruit-2" name="fruit-2" type="checkbox" value="orange">
+        Oranges
+      </label>
+      <label class="block-label ui-checkbox" for="fruit-3">
+        <input id="fruit-3" name="fruit-3" type="checkbox" value="banana">
+        Bananas
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Which chocolate bar do you like?</legend>
+      <label class="block-label ui-radio ui-radio-selected ui-radio-focused" for="chocolate-1">
+        <input id="chocolate-1" name="chocolate-bar-group" type="radio" value="wisper">
+        Wisper
+      </label>
+      <label class="block-label ui-radio" for="chocolate-2">
+        <input id="chocolate-2" name="chocolate-bar-group" type="radio" value="mars-bar">
+        Mars bar
+      </label>
+      <label class="block-label ui-radio" for="chocolate-3">
+        <input id="chocolate-3" name="chocolate-bar-group" type="radio" value="milky-way">
+        Milky way
+      </label>
+    </fieldset>
+
+  </form>
+  <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  <script>
+    $('ui-checkbox input').focus(function(){
+       if ($(this).hasClass('ui-checkbox-selected')) {
+           $(this).removeClass('ui-checkbox-selected')
+       } else {
+           $(this).addClass('ui-checkbox-selected')
+       }
+    });
+  </script>
+</body>
+</html>
