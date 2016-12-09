@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/SelectionButtons.css">
 
   <title>GOV.UK elements</title>
@@ -18,15 +18,15 @@
     <fieldset>
       <legend>Which fruits do you like?</legend>
 
-      <label class="block-label sb sb-checkbox" for="fruit-1">
+      <label class="block-label sb" for="fruit-1">
         <input id="fruit-1" name="fruit-1" type="checkbox" value="apple">
         Apples
       </label>
-      <label class="block-label sb sb-checkbox" for="fruit-2">
+      <label class="block-label sb" for="fruit-2">
         <input id="fruit-2" name="fruit-2" type="checkbox" value="orange">
         Oranges
       </label>
-      <label class="block-label sb sb-checkbox" for="fruit-3">
+      <label class="block-label sb" for="fruit-3">
         <input id="fruit-3" name="fruit-3" type="checkbox" value="banana">
         Bananas
       </label>
@@ -35,15 +35,15 @@
     <fieldset>
       <legend>Which chocolate bar do you like?</legend>
 
-      <label class="block-label sb sb-radio" for="chocolate-1">
+      <label class="block-label sb" for="chocolate-1">
         <input id="chocolate-1" name="chocolate-bar-group" type="radio" value="wisper">
         Wisper
       </label>
-      <label class="block-label sb sb-radio" for="chocolate-2">
+      <label class="block-label sb" for="chocolate-2">
         <input id="chocolate-2" name="chocolate-bar-group" type="radio" value="mars-bar">
         Mars bar
       </label>
-      <label class="block-label sb sb-radio" for="chocolate-3">
+      <label class="block-label sb" for="chocolate-3">
         <input id="chocolate-3" name="chocolate-bar-group" type="radio" value="milky-way">
         Milky way
       </label>
@@ -55,7 +55,7 @@
   <script src="js/SelectionButtons.js"></script>
   <script>
     $('body').addClass('js')
-    var sb = new SelectionButtons(".sb")
+    var sb = new SelectionButtons(".sb > input")
   </script>
 </body>
 </html>
