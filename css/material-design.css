@@ -1,0 +1,19 @@
+.js .sb-md.sb-checkbox::before {
+  border-color: rgba(100,100,100,.4);
+  border-radius: 5px;
+}
+
+.js .sb-md.sb-radio::before {
+  border-color: rgba(100,100,100,.4);
+}
+
+.js .sb-md.sb-focused::before {
+  box-shadow: none;
+  border-color: #CCE2FF;
+}
+
+.js .sb-md.sb-selected::after {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}

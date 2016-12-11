@@ -1,0 +1,13 @@
+.js .sb-sui.sb-checkbox::before {
+  border-color: rgba(100,100,100,.4);
+  border-radius: 5px;
+}
+
+.js .sb-sui.sb-radio::before {
+  border-color: rgba(100,100,100,.4);
+}
+
+.js .sb-sui.sb-focused::before {
+  box-shadow: none;
+  border-color: #CCE2FF;
+}

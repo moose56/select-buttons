@@ -4,16 +4,21 @@
  * https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
  */
 
-.js .block-label {
+.block-label {
     display: block;
     float: none;
     clear: left;
     position: relative;
-    padding: 8px 10px 9px 50px;
+    padding: 10px;
     margin-bottom: 10px;
     cursor: pointer;
     touch-action: manipulation;
 }
+
+.js .sb {
+    padding: 8px 10px 15px 50px;
+}
+
 
 
 .js .sb input {

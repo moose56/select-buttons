@@ -1,12 +1,16 @@
 body {
-    padding: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 fieldset {
-    padding: 9px 10px 0 10px;
-    margin: 0 0 20px;
+  padding: 9px 10px 0 10px;
+  margin: 0 0 20px;
 }
 
 legend {
-    display: none;
+  background: #fff;
+  padding: 0 5px;
 }

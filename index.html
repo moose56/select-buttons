@@ -5,54 +5,187 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/SelectionButtons.css">
-
+  <link rel="stylesheet" href="css/SelectionButtons-gov.uk.css">
+  <link rel="stylesheet" href="css/semantic-ui.css">
+  <link rel="stylesheet" href="css/material-design.css">
   <title>GOV.UK elements</title>
-  <script src="js/SelectionButtons.js"></script>
+  <script src="js/SelectionButtons-gov-uk.js"></script>
 </head>
 <body>
-  <h3>What do you like?</h3>
+  <section>
+    <h3>Default</h3>
 
-  <form>
+    <form>
 
-    <fieldset>
-      <legend>Which fruits do you like?</legend>
+      <fieldset>
+        <legend>Fruits</legend>
 
-      <label class="block-label sb" for="fruit-1">
-        <input id="fruit-1" name="fruit-1" type="checkbox" value="apple">
-        Apples
-      </label>
-      <label class="block-label sb" for="fruit-2">
-        <input id="fruit-2" name="fruit-2" type="checkbox" value="orange">
-        Oranges
-      </label>
-      <label class="block-label sb" for="fruit-3">
-        <input id="fruit-3" name="fruit-3" type="checkbox" value="banana">
-        Bananas
-      </label>
-    </fieldset>
+        <label class="block-label" for="fruit-a">
+          <input id="fruit-a" name="fruit-1" type="checkbox" value="apple">
+          Apples
+        </label>
+        <label class="block-label" for="fruit-b">
+          <input id="fruit-b" name="fruit-2" type="checkbox" value="orange">
+          Oranges
+        </label>
+        <label class="block-label" for="fruit-c">
+          <input id="fruit-c" name="fruit-3" type="checkbox" value="banana">
+          Bananas
+        </label>
+      </fieldset>
 
-    <fieldset>
-      <legend>Which chocolate bar do you like?</legend>
 
-      <label class="block-label sb" for="chocolate-1">
-        <input id="chocolate-1" name="chocolate-bar-group" type="radio" value="wisper">
-        Wisper
-      </label>
-      <label class="block-label sb" for="chocolate-2">
-        <input id="chocolate-2" name="chocolate-bar-group" type="radio" value="mars-bar">
-        Mars bar
-      </label>
-      <label class="block-label sb" for="chocolate-3">
-        <input id="chocolate-3" name="chocolate-bar-group" type="radio" value="milky-way">
-        Milky way
-      </label>
-    </fieldset>
+      <fieldset>
+        <legend>Chocolate bars</legend>
 
-  </form>
+        <label class="block-label" for="chocolate-a">
+          <input id="chocolate-a" name="chocolate-bar-group" type="radio" value="wisper">
+          Wisper
+        </label>
+        <label class="block-label" for="chocolate-b">
+          <input id="chocolate-b" name="chocolate-bar-group" type="radio" value="mars-bar">
+          Mars bar
+        </label>
+        <label class="block-label" for="chocolate-c">
+          <input id="chocolate-c" name="chocolate-bar-group" type="radio" value="milky-way">
+          Milky way
+        </label>
+      </fieldset>
+
+    </form>
+  </section>
+
+  <section>
+    <h3>GOV.UK</h3>
+
+    <form>
+
+      <fieldset>
+        <legend>Fruits</legend>
+
+        <label class="block-label sb" for="fruit-1">
+          <input id="fruit-1" name="fruit-1" type="checkbox" value="apple">
+          Apples
+        </label>
+        <label class="block-label sb" for="fruit-2">
+          <input id="fruit-2" name="fruit-2" type="checkbox" value="orange">
+          Oranges
+        </label>
+        <label class="block-label sb" for="fruit-3">
+          <input id="fruit-3" name="fruit-3" type="checkbox" value="banana">
+          Bananas
+        </label>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Chocolate bars</legend>
+
+        <label class="block-label sb" for="chocolate-1">
+          <input id="chocolate-1" name="chocolate-bar-group" type="radio" value="wisper">
+          Wisper
+        </label>
+        <label class="block-label sb" for="chocolate-2">
+          <input id="chocolate-2" name="chocolate-bar-group" type="radio" value="mars-bar">
+          Mars bar
+        </label>
+        <label class="block-label sb" for="chocolate-3">
+          <input id="chocolate-3" name="chocolate-bar-group" type="radio" value="milky-way">
+          Milky way
+        </label>
+      </fieldset>
+
+    </form>
+  </section>
+
+  <section>
+    <h3>Material design</h3>
+
+    <form>
+
+      <fieldset>
+        <legend>Fruits</legend>
+
+        <label class="block-label sb sb-md" for="fruit-4">
+          <input id="fruit-4" name="fruit-1" type="checkbox" value="apple">
+          Apples
+        </label>
+        <label class="block-label sb sb-md" for="fruit-5">
+          <input id="fruit-5" name="fruit-2" type="checkbox" value="orange">
+          Oranges
+        </label>
+        <label class="block-label sb sb-md" for="fruit-6">
+          <input id="fruit-6" name="fruit-3" type="checkbox" value="banana">
+          Bananas
+        </label>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Chocolate bars</legend>
+
+        <label class="block-label sb sb-md" for="chocolate-4">
+          <input id="chocolate-4" name="chocolate-bar-group" type="radio" value="wisper">
+          Wisper
+        </label>
+        <label class="block-label sb sb-md" for="chocolate-5">
+          <input id="chocolate-5" name="chocolate-bar-group" type="radio" value="mars-bar">
+          Mars bar
+        </label>
+        <label class="block-label sb sb-md" for="chocolate-6">
+          <input id="chocolate-6" name="chocolate-bar-group" type="radio" value="milky-way">
+          Milky way
+        </label>
+      </fieldset>
+
+    </form>
+  </section>
+
+  <section>
+    <h3>Semantic UI</h3>
+
+    <form>
+
+      <fieldset>
+        <legend>Fruits</legend>
+
+        <label class="block-label sb sb-sui" for="fruit-7">
+          <input id="fruit-7" name="fruit-1" type="checkbox" value="apple">
+          Apples
+        </label>
+        <label class="block-label sb sb-sui" for="fruit-8">
+          <input id="fruit-8" name="fruit-2" type="checkbox" value="orange">
+          Oranges
+        </label>
+        <label class="block-label sb sb-sui" for="fruit-9">
+          <input id="fruit-9" name="fruit-3" type="checkbox" value="banana">
+          Bananas
+        </label>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Chocolate bars</legend>
+
+        <label class="block-label sb sb-sui" for="chocolate-7">
+          <input id="chocolate-7" name="chocolate-bar-group" type="radio" value="wisper">
+          Wisper
+        </label>
+        <label class="block-label sb sb-sui" for="chocolate-8">
+          <input id="chocolate-8" name="chocolate-bar-group" type="radio" value="mars-bar">
+          Mars bar
+        </label>
+        <label class="block-label sb sb-sui" for="chocolate-9">
+          <input id="chocolate-9" name="chocolate-bar-group" type="radio" value="milky-way">
+          Milky way
+        </label>
+      </fieldset>
+
+    </form>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="js/SelectionButtons.js"></script>
+  <script src="js/SelectionButtons-gov-uk.js"></script>
   <script>
     $('body').addClass('js')
     var sb = new SelectionButtons(".sb > input")
